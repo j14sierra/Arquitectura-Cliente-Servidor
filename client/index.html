@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Inventario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inventario de Productos</h1>
+    <div>
+        <table id="tabla-inventario">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody id="contenido-inventario">
+                <!-- Los productos se mostrarán aquí -->
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Agregar Producto</h2>
+    <form id="form-producto">
+        <input type="text" id="nombre-producto" placeholder="Nombre del producto" required>
+        <input type="number" id="cantidad-producto" placeholder="Cantidad" required>
+        <button type="submit">Agregar Producto</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
