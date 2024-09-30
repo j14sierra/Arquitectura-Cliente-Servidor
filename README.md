@@ -97,9 +97,9 @@ El cliente es una interfaz gráfica accesible desde el navegador, que permite al
 
 * **Ventajas de esta arquitectura:**
 
-* Separación de responsabilidades: El servidor se encarga del procesamiento de datos y el cliente de la presentación.
-* Escalabilidad: Puedes modificar el cliente o el servidor de forma independiente.
-* Reusabilidad: El servidor puede ser utilizado por diferentes clientes (web, móviles, etc.).
+  	* Separación de responsabilidades: El servidor se encarga del procesamiento de datos y el cliente de la presentación.
+  	* Escalabilidad: Puedes modificar el cliente o el servidor de forma independiente.
+	* Reusabilidad: El servidor puede ser utilizado por diferentes clientes (web, móviles, etc.).
 
 ## Estructura Del Proyecto
 
