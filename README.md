@@ -30,10 +30,11 @@ Este proyecto es una aplicación de gestión de inventario que utiliza una arqui
 ## Instalación
 
 1. **Clonar el repositorio**
-   ```bash
-   git clone https://github.com/j14sierra/Arquitectura-Cliente-Servidor.git
-   cd inventario-app
-2. **Instalar dependencias del servidor**
+
+	   git clone https://github.com/j14sierra/Arquitectura-Cliente-Servidor.git
+	   cd Arquitectura-Cliente-Servidor
+   
+3. **Instalar dependencias del servidor**
    Navega a la carpeta del servidor y ejecuta el siguiente comando para instalar las dependencias:
    
    ```bash
